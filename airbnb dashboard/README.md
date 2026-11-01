@@ -71,22 +71,18 @@ The script reads the three CSV files from `data/` and writes the PNG/SVG charts,
 ## Repository structure
 
 ```text
-Seattle_Airbnb_DevLab_Week7_Final_Submission/
-├── 01_Web_Dashboard/
-│   └── Seattle_Airbnb_Interactive_Dashboard.html
-├── 02_Python_Visualizations/
+seattle airbnb dashboard/
+├── Web Dashboard/
+│   └── seattle airbnb dashboard.html
+├── python visualizations/
 │   ├── data/
-│   │   ├── dim_listings.csv
-│   │   ├── airbnb_monthly_fact.csv
-│   │   └── airbnb_asking_price_frequency.csv
+│   │   ├── dim listings.csv
+│   │   ├── airbnb monthly fact.csv
+│   │   └── airbnb asking price frequency.csv
 │   ├── charts/                 # 10 charts, PNG and SVG
-│   ├── chart_data/             # derived analytical tables
-│   ├── generate_charts.py
+│   ├── chart data/             # derived analytical tables
+│   ├── generated charts.py
 │   ├── requirements.txt
-│   ├── run_charts.bat
-│   ├── charts_overview.jpg
-│   ├── validation_report.txt
-│   └── README.md
 ├── README.md
 └── note.md
 ```
